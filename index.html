@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pittawat👌</title>
+</head>
+<body>
+    <h1>Welcome to Pittawat's Homepage</h1><br>
+    <p id="t"></p>
+    <script>
+        //window.alert("Hello!!");
+        document.getElementById("t").innerHTML=10+1;
+        console.log(15+5);
+
+        var age = 20;
+        var lastName = "Pirason";
+        var cars = ["Toyota", "Honda", "BMW"];
+        var me = {firstName:"Pittawat", lastName:"Pirason"};
+        window.alert(age)
+        window.alert(lastName)
+        window.alert(cars)
+        console.log(me)
+
+        var x;x=10;
+        var y;y=5;
+        var z=x*y;
+        window.alert(z)
+        document.getElementById("t").innerHTML=z;
+        console.log(z);
+
+        function myFuntion(a,b)
+        {
+            x=a*b;
+            alert("ผลลัพธ์ a*b="+x);
+        }
+
+        function myFuntion19(name1,name2)
+        {
+            alert("Welcome " + name1 + ", คุณ " + name2);
+        }
+    
+        a=1;
+            if(a==1){
+            alert("aมีค่าเท่ากับ1");
+        }
+
+        a=0;
+            if(a==1){
+            alert("aมีน่าเท่ากับ1");}
+            else{
+            alert("aมีน่าไม่เท่ากับ1");    
+            }
+
+        a=2;
+            if(a==1){
+            alert("aมีค่าเท่ากับ1");}
+            else if(a==2){
+            alert("aมีค่าเท่ากับ2");}
+            else{
+            alert("aมีค่าไม่เท่ากับ1");}
+
+    </script>
+    <button onclick="myFuntion(4,15)">
+        Click Me 
+    </button><hr>
+    <button onclick="this.innerHTML=Date()">
+        The Time is?
+    </button><hr>
+    <button onclick="myFuntion19('พัชราภา','อริสรา')">
+        ยินดีต้อนรับ
+    </button>
+
+
+</body>
+</html>
